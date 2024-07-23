@@ -1,0 +1,114 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #252525;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#movieSearch {
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+#movieSearch::placeholder {
+    color: #888888;
+}
+
+.btn-search {
+    background-color: #ffa500;
+    color: #1a1a1a;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn-search:hover {
+    background-color: #ff8c00;
+}
+
+.card {
+    background-color: #252525;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    color: #ffa500;
+}
+
+.badge {
+    margin-right: 0.5rem;
+}
+
+.badge.bg-secondary {
+    background-color: #ffa500 !important;
+    color: #1a1a1a;
+}
+
+.badge.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.badge.bg-primary {
+    background-color: #007bff !important;
+}
+
+.card-text {
+    color: #cccccc;
+    margin-bottom: 0.5rem;
+}
+
+.text-muted {
+    color: #888888 !important;
+}
+
+.recommendation-card {
+    background-color: #333333;
+    transition: transform 0.3s;
+}
+
+.recommendation-card:hover {
+    transform: scale(1.05);
+}
+
+.recommendation-card .card-title {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.recommendation-card .card-text {
+    font-size: 0.875rem;
+}
+
+footer {
+    background-color: #252525;
+    color: #888888;
+}
+
+.genre-badge {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    display: inline-block;
+    font-size: 0.875rem;
+}
